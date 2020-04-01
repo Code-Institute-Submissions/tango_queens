@@ -198,7 +198,9 @@ h6 {
 /*---------------------- Footer */
 
 footer{
-    padding:30px;
+    padding-top:30px;
+    padding-left:10%;
+    padding-right:10%;
     background: #cfd1d0;
 }
 
