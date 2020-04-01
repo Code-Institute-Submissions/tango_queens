@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/*---------------------- Special texts/headings */
+
+hr{
+    height: 12px;
+}
+
+/*---------------------- Heading */
+
+header{
+    font-family: "Roboto", sans-serif; 
+    text-transform:uppercase;
+    font-weight: 300;
+    color:#777777;
+}
+
+/*---------------------- Home Page */
+
+.jumbotron{
+    margin-left:41px;
+    margin-right:41px;
+    padding:15px;
+    background:#fff;
+}
+
+#cover-text{
+  font-size:80%;
+  font-family:"Roboto", sans-serif;
+  text-transform:uppercase;
+  letter-spacing: 4px;
+  font-weight: 200px;
+
+  max-width:600px;
+  max-height:50px;
+
+  padding-bottom:40px;
+  padding-top:10px;
+  padding-left:30px;
+
+  background-color: rgba(192,192,192,.7);
+
+  bottom:50px;
+  right:200px;
+  position:absolute;
+}
+
+.welcome-note{
+    margin-left:100px;
+    margin-right:100px;
+}
+
+p{
+    line-height:1.5em;
+    margin-bottom:25px;
+    font-family: "Roboto", sans-serif;
+    font-weight:200;
+    color:black;
+}
+
+.welcome-note-note{
+    padding-right:20px;
+    text-align: left;
+}
+
+.welcome-note-image{
+    max-width:80%;
+    height:auto;
+    border: 1px solid #ddd;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    border-radius: 4px;
+    padding: 15px;
+}
+
+.card{
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    margin-top:30px;
+    margin-bottom:10px;
+    max-width:60%;
+}
+
+.card-thumbnail{
+    max-width:90%;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    padding: 15px;
+}
+
+.card-text{
+    text-align:center;
+    font-family: "Roboto", sans-serif;
+    font-size:1em;
+    font-weight:400;
+    color:#777777;
+    text-transform: uppercase;
+}
+
+/*---------------------- Our Concept Page */
+
+.concept-header{
+    font-family: "Roboto", sans-serif;
+    font-weight:300;
+    font-size:300%;
+    text-align:center;
+    text-transform:uppercase;
+    color:#777777;
+
+    margin-top:2%;
+    margin-bottom:2%;
+}
+
+.concept-image{
+    height:300px;
+    width:auto;
+    object-fit: cover;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+
+.about-row{
+    margin:0 auto;
+    text-align: center;
+    width: 70%;
+}
+
+.about-header{
+    font-family: "Roboto", sans-serif;
+    font-weight:300;
+    font-size:200%;
+    text-align:center;
+    text-transform:uppercase;
+    color:#777777;
+
+    margin-top:3%;
+    margin-bottom:2%;
+}
+
+.the-team{
+    margin:0 auto;
+    width: 70%;
+    padding-bottom: 5%;
+    padding-top:3%
+}
+
+.monika{
+    max-width:80%;
+    height:auto;
+    border: 1px solid #ddd;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    border-radius: 4px;
+    padding: 15px;
+}
+
+h6 {
+    font-family: "Roboto", sans-serif;
+    font-weight:400;
+    font-size:16px;
+    color:black;
+
+}
+
+/*---------------------- Events including carousel */
+.quarantining-vero{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.vero-image{
+    max-width:80%;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    padding: 15px;
+}
+
+.carousel-container{
+    margin-bottom:5%;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    color:#777777;
+}
+
+.slide-images{
+    max-height:400px;
+    object-fit:contain;
+}
+
+/*---------------------- Footer */
+
+footer{
+    padding:30px;
+    background: #cfd1d0;
+}
+
+.social-networks{
+    text-align:center;
+}
+
+.social-networks li{
+  display:inline;
+  font-size: 230%;
+  padding-top:50px;
+  padding:30px;
+  
+}
+
+.social-networks i{
+    text-decoration: none;
+  color: #777777;
+}
+
+.social-headings{
+    font-family: "Roboto", sans-serif;
+    display:block;
+    color:#777777;
+    text-align:center;
+    text-transform:uppercase;
+    font-size:20px;
+    font-weight:300;
+    letter-spacing:1px;
+    padding-bottom:15px;
+}
+
+
+.contact-paragraph {
+    font-family:"Roboto", sans-serif;
+    text-align:center;
+    font-size:14px;
+    margin: 0 10px 0;
+    padding:10px;
+}
