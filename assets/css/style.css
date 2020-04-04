@@ -2,6 +2,7 @@
 
 /*---------------------- Special texts/headings */
 
+
 hr{
     height: 12px;
 }
@@ -18,32 +19,29 @@ header{
 /*---------------------- Home Page */
 
 .jumbotron{
-    margin-left:41px;
-    margin-right:41px;
-    padding:15px;
+    padding:2%;
     background:#fff;
 }
 
 .welcome-note{
-    margin-left:10%;
-    margin-right:10%;
+    margin-left:5%;
+    margin-right:5%;
 }
 
 .welcome-header{
    font-family: "Roboto", sans-serif;
     font-weight:300;
     font-size:300%;
-    text-align:center;
+    text-align: center;
     text-transform:uppercase;
     color:#777777;
     margin-top:2%;
     margin-bottom:2%; 
 }
 
-
 p{
     line-height:1.5em;
-    margin-bottom:25px;
+    margin-bottom:5%;
     font-family: "Roboto", sans-serif;
     font-weight:200;
     color:black;
@@ -73,8 +71,8 @@ p{
     margin-left:auto;
     margin-right:auto;
     display:block;
-    margin-top:30px;
-    margin-bottom:10px;
+    margin-top:2%;
+    margin-bottom:2%;
     max-width:80%;
 }
 
@@ -84,7 +82,7 @@ p{
     margin-left:auto;
     margin-right:auto;
     display:block;
-    padding: 15px;
+    padding: 5%;
 }
 
 .card-text{
@@ -122,7 +120,7 @@ p{
 .about-row{
     margin:0 auto;
     text-align: center;
-    width: 70%;
+    width: 85%;
 }
 
 .about-header{
@@ -172,7 +170,7 @@ h6 {
 
 .vero-card{
     line-height: 15%;
-    padding:3%;
+    padding:2%;
 }
 
 .vero-image{
@@ -190,25 +188,28 @@ h6 {
     font-weight:400;
     color:#777777;
     line-height: 150%;
+    text-decoration: underline; 
 }
 
 .vero-title{
    font-family: "Roboto", sans-serif;
     display:block;
     color:#000000;
-    font-size:20px;
+    font-size:23px;
     font-weight:400;
     letter-spacing:1px; 
     line-height: 150%;
+
+}
+
+.register-button{
+    float:right;
 }
 
 .carousel-container{
     margin-bottom:5%;
 }
 
-.carousel-control-next-icon, .carousel-control-prev-icon{
-    color:#777777;
-}
 
 .slide-images{
     max-height:400px;
@@ -258,4 +259,5 @@ footer{
     margin: 0 10px 0;
     padding-top:2%;
     padding-bottom:3%;
+    font-style: italic;
 }
