@@ -24,6 +24,11 @@ header{
     background:#fff;
 }
 
+.welcome-note{
+    margin-left:10%;
+    margin-right:10%;
+}
+
 .welcome-header{
    font-family: "Roboto", sans-serif;
     font-weight:300;
@@ -31,16 +36,10 @@ header{
     text-align:center;
     text-transform:uppercase;
     color:#777777;
-
     margin-top:2%;
     margin-bottom:2%; 
 }
 
-
-.welcome-note{
-    margin-left:100px;
-    margin-right:100px;
-}
 
 p{
     line-height:1.5em;
@@ -50,20 +49,20 @@ p{
     color:black;
 }
 
-.welcome-note-note{
-    padding-right:20px;
+.welcome-note-body{
+    padding-right:5%;
     text-align: left;
 }
 
 .welcome-note-image{
-    max-width:80%;
+    max-width:100%;
     height:auto;
     border: 1px solid #ddd;
     margin-left:auto;
     margin-right:auto;
     display:block;
     border-radius: 4px;
-    padding: 15px;
+    padding: 5%;
 }
 
 .home-nav-row{
@@ -146,7 +145,7 @@ p{
 }
 
 .monika{
-    max-width:80%;
+    max-width:100%;
     height:auto;
     border: 1px solid #ddd;
     margin-left:auto;
@@ -173,11 +172,11 @@ h6 {
 
 .vero-card{
     line-height: 15%;
-    padding:2%;
+    padding:3%;
 }
 
 .vero-image{
-    max-width:80%;
+    max-width:90%;
     height:auto;
     border: 1px solid #ddd;
     margin-left:auto;
@@ -189,7 +188,8 @@ h6 {
 .vero-explainer{
     font-family: "Roboto", sans-serif;
     font-weight:400;
-    color:#000000;
+    color:#777777;
+    line-height: 150%;
 }
 
 .vero-title{
@@ -199,6 +199,7 @@ h6 {
     font-size:20px;
     font-weight:400;
     letter-spacing:1px; 
+    line-height: 150%;
 }
 
 .carousel-container{
