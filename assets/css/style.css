@@ -24,26 +24,18 @@ header{
     background:#fff;
 }
 
-#cover-text{
-  font-size:80%;
-  font-family:"Roboto", sans-serif;
-  text-transform:uppercase;
-  letter-spacing: 4px;
-  font-weight: 200px;
+.welcome-header{
+   font-family: "Roboto", sans-serif;
+    font-weight:300;
+    font-size:300%;
+    text-align:center;
+    text-transform:uppercase;
+    color:#777777;
 
-  max-width:600px;
-  max-height:50px;
-
-  padding-bottom:40px;
-  padding-top:10px;
-  padding-left:30px;
-
-  background-color: rgba(192,192,192,.7);
-
-  bottom:50px;
-  right:200px;
-  position:absolute;
+    margin-top:2%;
+    margin-bottom:2%; 
 }
+
 
 .welcome-note{
     margin-left:100px;
@@ -72,6 +64,10 @@ p{
     display:block;
     border-radius: 4px;
     padding: 15px;
+}
+
+.home-nav-row{
+    margin-bottom:5%;
 }
 
 .card{
@@ -172,14 +168,37 @@ h6 {
 .quarantining-vero{
     border: 1px solid #ddd;
     border-radius: 4px;
+    padding:2%;
 }
+
+.vero-card{
+    line-height: 15%;
+    padding:2%;
+}
+
 .vero-image{
     max-width:80%;
     height:auto;
+    border: 1px solid #ddd;
     margin-left:auto;
     margin-right:auto;
     display:block;
-    padding: 15px;
+    padding: 3%;
+}
+
+.vero-explainer{
+    font-family: "Roboto", sans-serif;
+    font-weight:400;
+    color:#000000;
+}
+
+.vero-title{
+   font-family: "Roboto", sans-serif;
+    display:block;
+    color:#000000;
+    font-size:20px;
+    font-weight:400;
+    letter-spacing:1px; 
 }
 
 .carousel-container{
