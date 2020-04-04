@@ -1,67 +1,115 @@
-Your Project's Name
-One or two paragraphs providing an overview of your project.
+## Tango Queens Website
 
-Essentially, this part is your sales pitch.
+Tango Queens is a networking group that was started by a long-time friend of mine, Monika Jurkiewics who as a tango lover found that there was a lot of unspoken politics in tango which she personally found difficult to deal with when she joined the very insular community. After having some fairly bad experiences she created a networking group on Facebook and the concept gained in popularity such that they ran an in-person event earlier this year (2020). 
 
-UX
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+She created an initial website using a Wordpress template, however still basic, inelegant and lacking in functionality. It was important to me when choosing the topic of this project that there is potential for the site to be used so that when I add it to my portfolio, that my potential future employers will be able to see a live website that is functional and currently in use. Additionally, I wanted to create a project where I could potentially add more complex features once I have learnt them and use this as an ongoing opportunity to practice my development skills. 
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+## The UX process
+As this is a niche website, the majority of site users are ones that would be directed to the site from the community activities, rather than through search therefore it was important that the site focus on content and experience that is appropriate for the members.
 
-Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+The primary user of this site would be a tango dancer who is part of the international tango scene. This group of people (specifically in Europe) travel around the world monthly, bi-monthly to attend tango marathons called milongas.
 
-Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+The user stories are as follows:
+* The user can find out information about Tango Queens
+* The user is able to identify who the managing members of the Tango Queens community
+* The user can connect to the social pages for the group as well as email them directly
+* The user is able to see upcoming events and register for these
+* The user is able to see pictures from past events
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+The basic design of the website and overall aesthetic follows the existing Tango Queens website here: https://www.tangoqueens.com/. 
 
-Features Left to Implement
-Another feature idea
-Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-JQuery
-The project uses JQuery to simplify DOM manipulation.
-Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+## Features
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+### Existing Features
+**Feature 1:** The user can come to the site to find a welcome note from the founder of Tango Queens (on index.html).
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+**Feature 2:** The user can navigate to the groups Facebook and Instagram pages as well as emailing to open an email link to the group (all pages).
 
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+**Feature 3:** The user can find the background information of the concept behind Tango Queens (on concept.html).
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+**Feature 4:** The user can find information on the founder of Tango Queens (on concept.html).)
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+**Feature 5:** The user can find information on upcoming events and navigate directly to the registration page for that event. (on events.html).
 
-Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+**Feature 6:** The user can see an automated carousel of images from previous events (on events.html).
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+**Feature 7:** The user can navigate from index.html to Features 4 & 6 directly through navigation cards. 
 
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+**Feature 8:** The user can navigate around the site using the nav bar at the top of each page. 
 
-Credits
-Content
-The text for section Y was copied from the Wikipedia article Z
-Media
-The photos used in this site were obtained from ...
-Acknowledgements
-I received inspiration for this project from X
+### Features Left to Implement
+
+The design of this site is intended to be scalable in the long term as there are additional features that would make this ideal for the site owners. These are beyond the scope of the current project.
+
+These could include:
+* A registration process that links to a database
+* An event registration page
+* Integration with a live video player so that they can deliver their video content directly on the site
+* A members only portal with access to online resources
+* Payment gateway integration so that they can charge for their membership directly on the site
+
+
+## Technologies Used
+### HTML
+HTML5 has been used as the markup language of the site.
+### CSS
+CSS3 has been used to style the HTML elements on this site.  
+
+### Bootstrap
+Bootstrap has been used as the CSS framework for this site. It was particularly useful as a means to ensure that the site was responsive from the outset in the design/development phase. A number of elements have been taken directly from the Bootstrap framework including the headers, the jumbotron, the cards, the toggler button and image carousel. 
+
+Using bootstrap has also allowed me to incorporate two JQuery elements despite not having learned this framework yet. 
+
+### Javascript 
+In the introduction modules of the course, there was an overview instruction on how to incorporate javascript in front end development and it seemed appropriate to use Javascript for two of the elements in site - the toggle button in the header and the image carousel. Although this was technically beyond the scope of the website, using bootstrap to implement these features was simple enough and seemed appropriate. A static page of tiled images seemed a bit lack lustre and one of the tutorials already demonstrated how to incorporate the hamburger button. 
+
+In regards to these two elements, it is commented in the code however to emphasise that these elements were taken directly from Bootstrap, including the class names and ID's for the sake of functionality. 
+
+The carousel code used is here: https://getbootstrap.com/docs/4.0/components/carousel/
+
+The toggle button used is here: https://getbootstrap.com/docs/4.0/components/navbar/#toggler 
+
+### Font Awesome 
+Font Awesome was used for the social media icons found in the footer.
+
+### Google Fonts
+Roboto, a Google Font was used as the base font for the site. 
+
+Links to all of these sources can be found in the header of the site. 
+
+
+## Testing
+Through the development of the site, there has been ongoing testing. 
+
+All links have been tested to ensure that they work and open on blank pages where appropriate including:
+* Social links in the footer
+* Internal links in the nav bar 
+* Internal links in the cards at the bottom of index.html 
+* Register button in the event card on events.html 
+
+Additionally, extensive testing has been done across mobile resolutions this has included:
+* Manually manipulating screen size in order to see where resolution bugs arise
+* Changing the margins and padding to use % instead of pixels to ensure that the width of certain elements is easy to read across different resolutions
+* Removing certain images on smaller resolution mobile to make site more legible
+* Adding the JS nav bar toggle button to keep navigation simple when on mobile resolution
+
+
+
+## Deployment
+This project has been pushed to Github, the link to which is here: https://github.com/kberanoyd/tango_queens. 
+
+I have used this project as an opportunity to learn/test best practice with regards to github version control and have tried different methods of doing so, including add/committing only pages to add/committing the whole project repeatedly. Towards the end of the project this is what I tended to need to do increasingly as I was changing things across all of the pages often. 
+
+This is now deployed on gitpages. 
+
+## Credits
+
+### Content, Media and Inspiration
+The content for the entire site was obtained directly from and with the permission of the founder of the Tango Queens community, Monika Jurkiewics. All photographs, content and links were used with her permission. As a close friend, I am very invested in her message of empowerment which she provides for this community through this site and wanted to give her something that she can use in furtherance of this message. 
+
+I tried as much as possible to stick to the aesthetic that she had created in her initial website, however making this more professional looking. 
+
 
 python3 -m http.server
